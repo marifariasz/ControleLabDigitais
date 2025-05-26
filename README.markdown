@@ -72,7 +72,6 @@ Bem-vindo ao **Sistema de Controle de Acesso** do *LAB DE DIGITAIS*! 🎉 Este p
      - Tarefas FreeRTOS para entrada (`vTaskEntrada`), saída (`vTaskSaida`) e reset (`vTaskReset`). ⚙️
      - Função para atualizar o display (`atualizarDisplay`) com layout organizado. 🖥️
      - Controle do LED RGB (`atualizarRGB`) e buzzer (`play_buzzer`). 💡🎶
-     - Sem ව
 
 ## 🎮 Como Usar
 - **Entrada**: Pressione o botão conectado ao GPIO 5 para registrar a entrada de um usuário. 🚪
