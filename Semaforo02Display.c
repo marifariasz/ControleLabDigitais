@@ -1,15 +1,3 @@
-/*
- *  Por: Wilton Lacerda Silva
- *  Data: 16-05-2025
- *
- *  Sistema de controle de acesso com FreeRTOS
- *
- *  - Semáforo de contagem para limitar usuários simultâneos
- *  - Semáforo binário com interrupção para reset
- *  - Mutex para acesso ao display OLED
- *  - Feedback com LED RGB e buzzer
- */
-
 #include "pico/stdlib.h"       // Biblioteca padrão do Raspberry Pi Pico
 #include "hardware/i2c.h"      // Suporte para comunicação I2C
 #include "hardware/gpio.h"     // Controle de pinos GPIO
@@ -281,6 +269,4 @@ int main()
 
     // Inicia o escalonador do FreeRTOS
     vTaskStartScheduler();
-    // Loop infinito (não deve ser alcançado)
-    while (1);
 }
